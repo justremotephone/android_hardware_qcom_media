@@ -69,7 +69,7 @@ libmm-vdec-inc          += $(call project-path-for,qcom-display)/libqservice
 libmm-vdec-inc          += frameworks/av/media/libmediaplayerservice
 libmm-vdec-inc          += frameworks/native/include/binder
 libmm-vdec-inc          += $(call project-path-for,qcom-display)/libqdutils
-
+libmm-vdec-inc          += frameworks/native/libs/nativebase/include
 
 LOCAL_MODULE                    := libOmxVdec
 LOCAL_MODULE_TAGS               := optional
