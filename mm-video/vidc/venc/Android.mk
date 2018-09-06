@@ -36,6 +36,8 @@ ifeq ($(TARGET_USES_ION),true)
 libmm-venc-def += -DUSE_ION
 endif
 libmm-venc-def += -D_ANDROID_ICS_
+libmm-venc-def += -Wno-error
+
 # ---------------------------------------------------------------------------------
 # 			Make the Shared library (libOmxVenc)
 # ---------------------------------------------------------------------------------
